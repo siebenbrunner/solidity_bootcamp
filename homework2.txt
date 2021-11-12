@@ -2,7 +2,7 @@ Using the blockchain explorer, have a look at the following transactions, what d
 
 0xb9316bbbae1cd21cd824de8651c72582261230724b1957abdeb466aa96a359c9
 
-Looks like a whole lot of TheDAO tokens were burnt
+Looks like a whole lot of TheDAO tokens were burnt - TheDAO Hack
 
 0x4fc1580e7f66c58b7c26881cce0aab9c3509afe6e507527f30566fbf8039bcd0
 
@@ -32,9 +32,9 @@ What is special about these accounts :
 
 0x1db3439a222c519ab44bb1144fc28167b4fa6ee6
 
-At least worth $5mn?
+At least worth $5mn? - It's Vitalik's wallet (one of them)
 
 0x000000000000000000000000000000000000dEaD
 
-Could be a burn address
+Could be a burn address - Yes, the black hole assumed to have unknown private key
 
