@@ -36,12 +36,16 @@ contract VolcanoToken is ERC721("Volcano Token", "VCT"), Ownable {
     function _removeBurntToken(address owner, uint256 _tokenId) internal {
         for (uint i=0; i<owners[owner].length; i++) {
             if (owners[owner][i].tokenId == _tokenId) {
-                //owners[owner][i].pop; why does this not work?
                 owners[owner][i] = owners[owner][owners[owner].length-1];
+                //owners[owner].pop;
                 delete owners[owner][owners[owner].length-1];
                 break;
             }
         }
+    }
+
+    function _baseURI() internal pure override returns (string memory) {
+        return "https://none";
     }
 
 }
