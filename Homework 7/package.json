@@ -1,0 +1,17 @@
+{
+  "name": "homework-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ipfs": "^0.60.2",
+    "it-all": "^1.0.6",
+    "xpress": "^2.4.6"
+  }
+}
